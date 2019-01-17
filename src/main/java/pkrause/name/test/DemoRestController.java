@@ -3,6 +3,8 @@ package pkrause.name.test;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
+import java.util.Date;
+
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,4 +26,11 @@ public class DemoRestController {
 
         return new ResponseEntity<>(greeting, HttpStatus.OK);
     }
+
+    @RequestMapping("/getdate")
+    public HttpEntity<Date> getdatetime() {
+        var date = new Date();
+        return new ResponseEntity<>(date, HttpStatus.OK);
+    }
+
 }
