@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "test",
+                "projectName": "test",
+                "workingDirectory": "c:\\Users\\mail\\Source\\Java\\Test\\test",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "test",
+                "projectName": "test",
+                "workingDirectory": "c:\\Users\\mail\\Source\\Java\\Test\\test",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
